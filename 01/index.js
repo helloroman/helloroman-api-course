@@ -21,12 +21,13 @@ const render = (data) => {
   container.appendChild(fragment);
 };
 
-const success = (data) => {
-  const beers = JSON.parse(data.target.responseText);
-  render(beers);
-};
+const success = (response) => response.json();
 
 const error = (err) => {
   console.log(err);
 };
 
+fetch(API_URL)
+  .then(success)
+  .then(render)
+  .catch(error);
