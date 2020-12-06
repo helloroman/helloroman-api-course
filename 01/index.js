@@ -30,9 +30,3 @@ const error = (err) => {
   console.log(err);
 };
 
-const req = new XMLHttpRequest();
-req.onload = success;
-req.onerror = error;
-req.open('GET', API_URL);
-req.send();
-
