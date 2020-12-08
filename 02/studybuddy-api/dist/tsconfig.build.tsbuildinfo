@@ -2407,7 +2407,7 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "2e0e7bc46bcb02712984d12dee2b777a7ce02ea100a201a5722764c3b7a25723",
+        "version": "c44ea6230c2acd13cfe65fa7f17785e70f08eb70dac635ced7ccb2ec9c99bdc3",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -7112,7 +7112,6 @@
       "../src/app.controller.ts",
       "../src/app.module.ts",
       "../src/app.service.ts",
-      "../src/main.ts",
       "../src/users/dto/create-user.dto.ts",
       "../src/users/dto/update-user.dto.ts",
       "../src/users/entities/user.entity.ts",
