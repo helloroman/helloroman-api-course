@@ -1,11 +1,6 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
 import StudentProfile from 'components/StudentProfile';
-
-const Wrapper = styled.div`
-  overflow-y: scroll;
-  
-`;
+import { Wrapper } from 'components/SchoolNews/SchoolNews.styles';
 
 const StudentsList = () => {
   const [students, setStudents] = useState([
