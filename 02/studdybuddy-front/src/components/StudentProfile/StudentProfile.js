@@ -28,7 +28,7 @@ StudentProfile.propTypes = {
   studentData: PropTypes.shape({
     name: PropTypes.string.isRequired,
     group: PropTypes.string.isRequired,
-    age: PropTypes.string.isRequired,
+    age: PropTypes.number.isRequired,
     grades: PropTypes.arrayOf(PropTypes.number).isRequired,
   }).isRequired,
 };
