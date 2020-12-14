@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import StudentsList from 'components/StudentsList';
-import SchoolNews from 'components/SchoolNews';
+import StudentsList from 'components/StudentsList/StudentsList';
+import SchoolNews from 'components/SchoolNews/SchoolNews';
 
 const Wrapper = styled.div`
   padding: 40px;

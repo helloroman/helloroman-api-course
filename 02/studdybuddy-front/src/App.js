@@ -1,6 +1,6 @@
-import Root from './views/Root';
-import Navigation from './components/Navigation';
-import AddStudent from './views/AddStudent';
+import Root from 'views/Root';
+import Navigation from 'components/Navigation/Navigation';
+import AddStudent from 'views/AddStudent';
 import {
   BrowserRouter as Router,
   Switch,

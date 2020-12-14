@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import StudentProfile from 'components/StudentProfile';
+import StudentProfile from 'components/StudentProfile/StudentProfile';
 import { Wrapper } from 'components/SchoolNews/SchoolNews.styles';
 
 const StudentsList = () => {
