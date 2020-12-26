@@ -7,6 +7,8 @@ import {
   Route,
 } from 'react-router-dom';
 import styled from 'styled-components';
+import { ApolloProvider } from '@apollo/client';
+import { apolloClient } from 'api/apolloClient';
 
 const Background = styled.div`
   padding: 40px;
@@ -29,21 +31,23 @@ const Wrapper = styled.div`
 
 function App() {
   return (
-    <Router>
-      <Background>
-        <Wrapper>
-          <Navigation/>
-          <Switch>
-            <Route path="/add-student">
-              <AddStudent/>
-            </Route>
-            <Route path="/">
-              <Root/>
-            </Route>
-          </Switch>
-        </Wrapper>
-      </Background>
-    </Router>
+    <ApolloProvider client={apolloClient}>
+      <Router>
+        <Background>
+          <Wrapper>
+            <Navigation/>
+            <Switch>
+              <Route path="/add-student">
+                <AddStudent/>
+              </Route>
+              <Route path="/">
+                <Root/>
+              </Route>
+            </Switch>
+          </Wrapper>
+        </Background>
+      </Router>
+    </ApolloProvider>
   );
 }
 
