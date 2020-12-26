@@ -57,6 +57,8 @@ export const ArticleImage = styled.div`
   margin-right: 40px;
   
   img {
-    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 `;
