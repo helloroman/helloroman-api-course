@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  studybuddy-db:
+    image: mongo
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      MONGODB_DATABASE: studybuddy-db
+  studybuddy-api:
+    image: studybuddy-api:latest
+    environment:
+      MONGODB_URI: mongodb://studybuddy-db:27017/studybuddy-db
+      PORT: 8000
+    ports:
+      - 8000:8000
+  studybuddy-front:
+    image: studybuddy-front:latest
+    environment:
+      REACT_APP_PROXY_API: http://localhost:8000/
+      PORT: 3000
+    env_file:
+      - .env-docker
+    ports:
+      - 3000:3000
+
