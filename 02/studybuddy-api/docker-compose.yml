@@ -1,5 +1,6 @@
 version: "3"
 
+#  łączymy się z bazą danych za pomocą docker compose
 services:
   db:
     image: mongo

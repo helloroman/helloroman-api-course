@@ -1177,13 +1177,13 @@
         "affectsGlobalScope": false
       },
       "../src/app.service.ts": {
-        "version": "eaf8514ce110fa428a93a27408df4d06d133dbd9ed0a775c315ddfdd507853a9",
-        "signature": "653711fba8904aa27fd8911b63cf526e7b334e13a292da4cefdbbe179ac3f3f2",
+        "version": "5d4242d50092a353e5ab1f06663a89dbc714c7d9d70072ea03c83c5b14750f05",
+        "signature": "d8f4cb0109c1b399d657807fd6af504d74a9300325e0fc915abdbf658b464a97",
         "affectsGlobalScope": false
       },
       "../src/app.controller.ts": {
-        "version": "260f889b9e2b69f77be1155348eb345166aec664b3efff6720053c6844a41f28",
-        "signature": "ef022c91ea9e75ab4082f2e881f9c4db7b346be2da706e876b253bebce5e6140",
+        "version": "3469c5aa62e1ba5b183d9bb9d40193e91aa761fc5734d332650b0bd49c346266",
+        "signature": "3293b0d1d6a7f902316e164fcf36ae099f1bbb0224484586eaab30d9dea78d32",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts": {
@@ -1532,8 +1532,8 @@
         "affectsGlobalScope": false
       },
       "../src/users/entities/user.entity.ts": {
-        "version": "ef5597a4f577336982aa1acfcbf8e4010373078dccc7f2c6896825c89ac20963",
-        "signature": "02c9c5de91c69f566c35dbacb4f8f2ed7e288097f8a6ed00b754f684df47e1af",
+        "version": "57f0a441dbed4d784bb5dd1d53a209a148486f8fa07429c6e750a6d1d135d189",
+        "signature": "ca5caa742864876529299b2ad7c052ba1675a2bd62ea72d15c4a773f39feb7b3",
         "affectsGlobalScope": false
       },
       "../node_modules/class-validator/types/validation/validationerror.d.ts": {
@@ -2152,8 +2152,8 @@
         "affectsGlobalScope": false
       },
       "../src/users/dto/create-user.dto.ts": {
-        "version": "fe8780865935c2b59f0599f885fb44d7f1927e84955f5f89aaadb1a05806bb58",
-        "signature": "bc07ad6877970ea0d9c9aebd878478b3290966ce358ed770edaf059fba5ab9b7",
+        "version": "232378768841aeadb537c5bf8380d88ddb3334a62008ee2eeddf97c5b57148df",
+        "signature": "5f35350193700c51f65d8b225d87ecf5e2406604fc048264c02865acfce35aaf",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/mapped-types/dist/mapped-type.interface.d.ts": {
@@ -2197,33 +2197,33 @@
         "affectsGlobalScope": false
       },
       "../src/users/dto/update-user.dto.ts": {
-        "version": "7ae221f2ac29a269c32baa485f4bfbd13b97d63159c6bb0471b0789104858642",
-        "signature": "2c238db955c7dd78a3ed0bb25a98e0b14fb88646931d0c9c02b0750b6531061c",
+        "version": "1a1d53079df2e7276164b016fe914e1fdb287da057ba665896cf56633537eaa0",
+        "signature": "a0986ce4230a917af08a71fbeed8efbafc49a2e05ad92f9561ee936000249154",
         "affectsGlobalScope": false
       },
       "../src/users/users.service.ts": {
-        "version": "b33ea2dc711bd43edbb40c3ca92083e71f7aead3ef1b1c73704190e3b36bf2b2",
-        "signature": "2e8e303b034b6fabb0af4e49422869b782bbe198816c89badc16a619f8eb26cf",
+        "version": "571b77f7f522e21abad782b444457e81452e63ebe7cfcc2c35467ca27c6916e9",
+        "signature": "8d6e4a31cb91097fdd52a2ca2981d888040b7ca10c7bb4a5f2f43224a4e05887",
         "affectsGlobalScope": false
       },
       "../src/users/interfaces/user.interface.ts": {
-        "version": "7e5642b51012791ce950e8630ebee8185fa8bcbea8f94f0f438c1c5f4a0863cb",
-        "signature": "6c38322999c021cfa76492c7af4c44e30dd1ca63d92d6519d4bbf4c3ed93785d",
+        "version": "a506d034ad82f31042b81293f37b5f7df416b7934ea4b1e9365f1c1d560d9285",
+        "signature": "5a8b99b140735de986bff3834a348772768c59bba1641bea8fd90a23211573f8",
         "affectsGlobalScope": false
       },
       "../src/users/users.controller.ts": {
-        "version": "47b6b5a5edc94fe3e7074cd123638e1e29b961364d9606e98ea43cc9c315b52b",
-        "signature": "c658592bad419192d63bbe4187657348435f5347df53c39b68939156be8fb13d",
+        "version": "a8cc4c7f518c5705f2d14c4453eb718d8dba28922311325975c3af59593dfa70",
+        "signature": "f2f13aadb25e6c5ed8d73c8127ba9bf293dceb32450c7007165a52b75f41a1b8",
         "affectsGlobalScope": false
       },
       "../src/users/users.module.ts": {
-        "version": "4f9611c5f97aa1d5410849f9c6b2686ee32c95ddf33a1f2daf3b55466d692c75",
-        "signature": "aa1725e38b5a0b4009f6a74f296f173e7926c119a60454dbd2e523861735df69",
+        "version": "a5ee57d54d96bd778167ec69f07817a8803385bfca66d28e04cddb724cfe5abb",
+        "signature": "12dec6c99bd8d11167fa91a31e737abbbf8c9cc789c151a25a9a1d13f328175c",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "82ee6dbf8532d86db67c2cb865ce01082f11670adc76deb96e98929894768af9",
-        "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
+        "version": "012b68348e48039e0c517853f2c953ea9ea0931683fe1c747ba7d962999e27cb",
+        "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": {
@@ -2407,8 +2407,8 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "c44ea6230c2acd13cfe65fa7f17785e70f08eb70dac635ced7ccb2ec9c99bdc3",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "version": "6b2059066b9b738ebcd40219dc8a00dff450481d61b06712b0c6a82be2969e73",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/anymatch/index.d.ts": {
@@ -7108,17 +7108,7 @@
       "../node_modules/typescript/lib/lib.es5.d.ts",
       "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "../node_modules/typescript/lib/lib.scripthost.d.ts",
-      "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
-      "../src/app.controller.ts",
-      "../src/app.module.ts",
-      "../src/app.service.ts",
-      "../src/users/dto/create-user.dto.ts",
-      "../src/users/dto/update-user.dto.ts",
-      "../src/users/entities/user.entity.ts",
-      "../src/users/interfaces/user.interface.ts",
-      "../src/users/users.controller.ts",
-      "../src/users/users.module.ts",
-      "../src/users/users.service.ts"
+      "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts"
     ]
   },
   "version": "3.9.7"
