@@ -1,30 +1,25 @@
-import React, { useState } from 'react';
-import StudentProfile from 'components/StudentProfile/StudentProfile';
-import { Wrapper } from 'components/SchoolNews/SchoolNews.styles';
+import React, { useState, useEffect } from "react";
+import StudentProfile from "components/StudentProfile/StudentProfile";
+import { Wrapper } from "components/SchoolNews/SchoolNews.styles";
+const axios = require("axios").default;
 
 const StudentsList = () => {
   const [students, setStudents] = useState([
-    {
-      name: 'Fake',
-      age: 32,
-      group: 'Fake Group',
-      grades: [2,5,4,4,5,5],
-    }
+   
   ]);
+  useEffect(() => {
+    axios
+      .get("http://localhost:8000/users")
+      .then((resp) => console.log(resp))
+      .catch((err) => console.log(err));
+  },[]);
 
   return (
     <Wrapper>
-      <StudentProfile studentData={students[0]}/>
-      <StudentProfile studentData={students[0]}/>
-      <StudentProfile studentData={students[0]}/>
-      <StudentProfile studentData={students[0]}/>
-      <StudentProfile studentData={students[0]}/>
-      <StudentProfile studentData={students[0]}/>
-      <StudentProfile studentData={students[0]}/>
-      <StudentProfile studentData={students[0]}/>
+      {students.length ? students.map(student=><StudentProfile key={student.id} studentData={student} />) : <h2>No students</h2>}
     </Wrapper>
   );
-}
+};
 
 StudentsList.propTypes = {};
 
